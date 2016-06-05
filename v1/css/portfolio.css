@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+
+.callout.primary {
+    background: #0099ff;
+    height: 50vh;
+    text-align: center;
+    color: #FFFFFF;
+}
+.main-head-contain, .main-head-contain h1 {
+    font-family: 'Roboto Condensed', Sans-Serif !important;
+    font-weight: 400;
+    letter-spacing: .2rem;
+}
+
+.main-head-contain p {
+    font-weight: 400;
+    letter-spacing: normal;
+}
+
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    
+    .callout.primary {
+        background: #0099ff;
+        height: 50vh;
+        text-align: center;
+    }
+    
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    
+    .callout.primary {
+        background: #0099ff;
+        height: 60vh;
+        text-align: center;
+    }
+    
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        
+    .callout.primary {
+        background: #0099ff;
+        height: 70vh !important;
+        text-align: center;
+    }
+    
+     
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+    .callout.primary {
+        background: #0099ff url(../img/ocean-bkg.jpg) center top no-repeat ;
+        height: 100vh !important;
+        text-align: center;
+    }
+    
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+    
+    
+}
